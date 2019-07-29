@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<html>
+    <body>
+        <div><h1>Bracelet Customizer</h1></div>
+
+        <div>
+            <h2>Color Beads:</h2>
+            <div class="color-bead-selection">
+            </div>
+        </div>
+        <div>
+            <h2>Charms/Metal Beads:</h2>
+            <div class="metal-bead-selection">
+            </div>
+        </div>
+        <div>
+            <button class="button" id="submit-button" onclick="toggleTooltip()">Apply</button></div>
+            <button class="button" id="download-button" onclick="download_bracelet_img()">Download</button></div>
+
+        <div class="container" id="bracelet">  
+            <img class="bracelet" src="images/bracelet.jpg" alt="bracelet">
+            <div class="bead-container"></div>
+        </div>
+            <div class="tooltip" id="color-tooltip">
+                <div class="tooltipcontent">
+                    <div class="color-bead-box"></div>
+                </div>
+            </div>
+            <div class="tooltip" id="metal-tooltip">
+                <div class="tooltipcontent">
+                    <div class="metal-bead-box"></div>
+                </div>
+            </div>
+        </div>  
+        <div class="offscreen"></div>
+    </body>
+
+    <script src="scripts/modules/dom-to-image.js"></script>
+    <script src="scripts/beads.js"></script>
+    <script src="scripts/script.js"></script>
+</html>

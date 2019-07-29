@@ -1,0 +1,123 @@
+.container {
+    position: relative;
+    height: 110px;
+    width: 700px;
+    margin: 0px auto;
+    padding-top: 50px;
+  }
+  
+  .bead {
+    position: relative;
+    height: 70px;
+    width: 40px;
+    margin: 5px;
+    float: left;
+
+  }
+
+  .bead-container{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+  }
+
+img.bracelet{
+  position: relative;
+  top: 50%;
+}
+.tooltip {
+  display: none;
+  position: relative;
+  background-color: gray;
+  width: 350px;
+  height: 350px;
+  border-radius: 6px;
+  z-index: 1;
+  top: 110%;
+  left: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.bead-img{
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  float: left;
+}
+
+.tooltipcontent{
+  position: absolute;
+  margin: 25px;
+  height: 300px;
+  width: 300px;
+}
+
+.bracelet-bead{
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}
+
+.form{
+  position: relative;
+  margin-left: 10px;
+  top: -50px;
+  left: 100%;
+}
+
+.search-box{
+  float:left;
+  height: 100%;
+  width: 25%;
+}
+
+.color-bead-box, .metal-bead-box{
+  float: left;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.search-category{
+  font-weight: bold;
+}
+
+.search-item{
+  width: 100%;
+}
+.color-bead-selection, .metal-bead-selection{
+  display: inline-block;
+  position: relative;
+}
+.color-bead, .metal-bead{
+  border: 1px solid black;
+  height:70px;
+  width: 70px;
+  float: left;
+  position: relative;
+}
+
+.close-button{
+  position: relative;
+  left: 100%;
+  height: 5%;
+  width: 5%;
+  border: 0px;
+  padding: 0px;
+  margin-left: -7%;
+  margin-top: 5px;
+  
+}
+
+img.bracelet-bead, img.tooltip-bead{
+  height: 70px;
+  width: 40px;
+}
+
+.offscreen{
+  overflow: hidden;
+  height:0px;
+  width: 0px;
+}
