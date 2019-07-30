@@ -19,4 +19,9 @@ let jsonObject = [
 		"type" : "color",
 		"path" : "pinkheart.jpg"
 	},
+	{
+		"name" : "dwarf",
+		"type" : "metal",
+		"path" : "p.jpg"
+	},
 ]
