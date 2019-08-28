@@ -54,4 +54,9 @@ let jsonObject = [
 		"type" : "color",
 		"path" : "Attachment_1567022417.jpeg"
 	},
+	{
+		"name" : "Dark Red",
+		"type" : "color",
+		"path" : "Attachment_1567022422.jpeg"
+	},
 ]
