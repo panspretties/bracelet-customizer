@@ -29,4 +29,9 @@ let jsonObject = [
 		"type" : "metal",
 		"path" : "Attachment_1567022285.jpeg"
 	},
+	{
+		"name" : "GOT Bridge",
+		"type" : "metal",
+		"path" : "Attachment_1567022291.jpeg"
+	},
 ]
